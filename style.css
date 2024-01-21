@@ -36,7 +36,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #121212;
   color: #9e9e9e;
-  font-weight: lighter;
+  font-weight: normal;
 
 }
 
@@ -45,7 +45,7 @@ main.table {
   width: fit-content;
   height: fit-content;
   background-color: #121212;
-  font-weight: lighter;
+  font-weight: normal;
 
   backdrop-filter: blur(7px);
   box-shadow: 0 .4rem .8rem #0005;
@@ -111,7 +111,7 @@ main.table {
 
 .table__body {
   width: fit-content;
-  font-weight: lighter;
+  font-weight: normal;
   text-align: center;
 
   height: fit-content; /* Set the desired height for displaying 10 items */
