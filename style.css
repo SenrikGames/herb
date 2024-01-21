@@ -20,7 +20,7 @@ img {
 .informative-message {
   text-align: center;
   font-size: large;
-  background-color: #2a3334;
+  background-color: #1f1f1f;
   color: #d2b48c;
   padding: 10px;
 
@@ -84,7 +84,7 @@ main.table {
 .table__header .input-group {
   font-weight: lighter;
 
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   background-color: #181818;
   padding: 0 .8rem;
