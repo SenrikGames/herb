@@ -1,225 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="table__responsive">
+      <table>
+        <thead>
+        <tr>
+          <th>Rank</th>
+          <th> Herb <span class="icon-arrow">&UpArrow;</span></th>
+          <th> Level <span class="icon-arrow">&UpArrow;</span></th>
+          <th> Contribution<span class="icon-arrow">&UpArrow;</span> </th>
+          <th> Conquest <span class="icon-arrow">&UpArrow;</span></th>
+        </tr>
+        </thead>
+        <tbody id="table-body">
+
+        </tbody>
+      </table>
+    </div>
+    <div>
+
+      <h4>Online Farming:</h4>
+      <ul>
+      <li>Focus on farming Wing Essence and Synthetic Stones. Farm the highest stage where you can consistently achieve 1500 kills per minute.</li>
+      </ul>
+      <h4>Offline Farming:</h4>
+      <ul>
+      <li>Not recommended, only when you can't online farm</li>
+      <li>Worth doing 8 hours after a big damage upgrade</li>
+      </ul>
+
+      <h4>Altar Progress</h4>
+      <ul>
+        <li>Prioritize leveling one equipment (ATK/HP) to level 25.</li>
+        <li>Every 5 levels of the altar yield a substantial damage boost.</li>
+      </ul>
+
+      <h4>Pet Might Stats for Awakening Dungeon and Boss</h4>
+      <ul>
+        <li>6: Might HP</li>
+        <li>5: Might Attack Power</li>
+        <li>5: Might Attack Speed</li>
+        <li>5: Might Damage Increase</li>
+        <li>5: Might Boss Damage Increase</li>
+        <li>5: Might Buff/Active Skill Crit Damage</li>
+      </ul>
+
+      <h4>Wing Progress</h4>
+      <ul>
+      <li>Level all wings equally until level 7. </li>
+      </ul>
+
+      <h4>Hyper/Ultra Wing Stats to Prioritize</h4>
+      <ul>
+        <li>HP, Attack Power, Attack Speed, Damage Increase, Critical Damage, Buff/Active Crit Damage, Boss Damage, Skill Damage</li>
+      </ul>
+
+      <h4>Equipment Options</h4>
+
+      <h4>Boss/Awakening:</h4>
+      <ul>
+        <li>Crit Chance</li>
+        <li>Damage Increase</li>
+        <li>Damage to Boss</li>
+        <li>ATK</li>
+        <li>HP</li>
+      </ul>
+
+      <h4>Online Farming:</h4>
+      <ul>
+        <li>Damage</li>
+        <li>ATK</li>
+        <li>HP</li>
+        <li>Damage to Normal</li>
+        <li>Movement Speed</li>
+      </ul>
+      <h4>Buff Skill Layout - Immortal Pushing</h4>
+      <img src="https://github.com/borkmanbork/Pixel-Hunter/assets/142642202/a4365b3e-e46b-4618-882a-7ab2ddabbf76" alt="Skill Layout for pushing mobs without dying">
+      <ul>
+        <li>Dagger: Stun from Diagonal Slash, Battle Cry, and invulnerability from Shadow Summon.</li>
+        <li>Bow: Empowered Arrows stun.</li>
+      </ul>
+
+      <h4>Buff Skill Layout - Boss Killer</h4>
+      <img src="https://github.com/borkmanbork/Pixel-Hunter/assets/142642202/cbfecfdd-e6ee-49f0-b81f-d0f81ddf738f" alt="Skill Layout for Boss">
+
+      <h4>Skill Rotation for Buff Builds for Awakening</h4>
+      <ul>
+        <li>Start with dagger before entering the dungeon</li>
+        <li>Auto Switch Off</li>
+        <li>Enter Dungeon</li>
+        <li>Wait for the last dagger skill to activate</li>
+        <li>Auto switch to bow.</li>
+      </ul>
+    </div>
 
 
 
-img {
-  display: block; /* Removes default inline behavior, allowing margin auto to center */
-  max-width: 100%; /* Ensures image is never wider than its container */
-  height: auto; /* Maintains aspect ratio */
-  margin: 0 auto; /* Centers image horizontally */
-}
-
-@media (max-width: 768px) {
-  .your-element {
-    padding: 10px;
-  }
-}
-
 
-
-/* Custom color for h2 */
-h4 {
-  color: #d2b48c;
-  font-weight: normal;
-  margin-bottom: 5px;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-  transition: color 0.3s;
-}
 
-.table-responsive {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  margin: 0 -15px; /* Adjust margins as necessary to fit your layout */
-}
+<script src="script.js"></script>
 
 
-body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #121212;
-  color: #9e9e9e;
-  font-weight: normal;
+</body>
 
-}
-
-main.table {
-
-  width: fit-content;
-  height: fit-content;
-  background-color: #121212;
-  font-weight: normal;
-
-  backdrop-filter: blur(7px);
-  box-shadow: 0 .4rem .8rem #0005;
-  border-radius: .8rem;
-
-  overflow: hidden;
-}
-
-.table__header {
-
-  width: 100%;
-  height: 10%;
-  background-color: rgba(124, 39, 39, 0.27);
-  padding: .5rem .5rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-weight: lighter;
-
-}
-
-.table__header .input-group {
-  font-weight: lighter;
-
-  width: 100%;
-  height: 100%;
-  background-color: #181818;
-  padding: 0 .8rem;
-  border-radius: 2rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  transition: .2s;
-}
-
-.table__header .input-group:hover {
-  font-weight: lighter;
-  width: 45%;
-  background-color: rgba(98, 40, 40, 0.53);
-  box-shadow: 0 .1rem .4rem #0002;
-  text-align: center;
-}
-
-
-
-.table__header .input-group input {
-  font-weight: lighter;
-  width: 100%;
-  background-color: #181818;
-  border: none;
-  padding: 15px;
-  border-radius: 5px;
-  margin: 10px;
-  outline: none;
-  justify-content: center;
-  text-align: center;
-}
-
-.table__body {
-  width: fit-content;
-  font-weight: normal;
-  text-align: center;
-
-  height: fit-content; /* Set the desired height for displaying 10 items */
-  max-height: calc(89% - 1.6rem); /* Maximum height with respect to the layout */
-  background-color: #181818;
-  margin: auto;
-  border-radius: 5px;
-
-  overflow-y: auto; /* Enable vertical scrollbar for overflowing content */
-}
-
-
-
-
-
-
-.table__body:hover::-webkit-scrollbar-thumb{
-  visibility: visible;
-}
-
-
-table {
-  width: 100%;
-  max-width: 100%; /* Ensures table is never wider than its container */
-  margin-bottom: 1rem;
-  background-color: transparent;
-}
-
-
-
-thead th {
-  font-weight: lighter;
-  color: #d7b17e;
-  margin-bottom: 5px;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-  transition: color 0.3s;
-  position: sticky;
-  background-color: #1f353a;
-  cursor: pointer;
-  border: #9e9e9e;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-
-}
-
-tbody tr:nth-child(even) {
-  font-weight: lighter;
-  background-color: rgba(14, 14, 14, 0.04);
-  justify-content: center;
-  text-align: center;
-  border-radius: 5px;
-  padding: 15px;
-  margin: 10px;
-
-}
-
-tbody tr {
-  font-weight: lighter;
-  border-radius: 5px;
-  padding: 5px;
-  margin: 5px;
-  --delay: .1s;
-  transition: .5s ease-in-out var(--delay), background-color 0s;
-  text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-thead th span.icon-arrow {
-  display: inline-block;
-  width: 1.1rem;
-  height: 1.1rem;
-  border-radius: 50%;
-  border: 1.1px solid transparent;
-
-  text-align: center;
-  font-size: 1rem;
-
-  margin-inside: .1rem;
-  transition: .2s ease-in-out;
-}
-
-thead th:hover span.icon-arrow{
-  border: 1px solid #676767;
-}
-
-thead th:hover {
-  color: #5d5959;
-}
-
-thead th.active span.icon-arrow{
-  background-color: #3b3a3a;
-  color: #3a3636;
-}
-
-thead th.asc span.icon-arrow{
-  transform: rotate(180deg);
-}
-
-thead th.active,tbody td.active {
-
-  color: #6c00bd;
-}
-
+</html>
