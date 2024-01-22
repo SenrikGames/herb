@@ -10,7 +10,12 @@ img {
   height: auto; /* Maintains aspect ratio */
   margin: 0 auto; /* Centers image horizontally */
 }
-
+spline-viewer{
+  display: inline-block; /* Removes default inline behavior, allowing margin auto to center */
+  max-width: 100%; /* Ensures image is never wider than its container */
+  height: auto; /* Maintains aspect ratio */
+  margin: 0 auto;
+}
 @media (max-width: 768px) {
   .your-element {
     padding: 10px;
