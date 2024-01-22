@@ -60,7 +60,7 @@ body {
 
 main.table {
 
-  width: fit-content;
+  max-width: 100%;
   height: fit-content;
   background-color: #121212;
   font-weight: normal;
@@ -74,7 +74,7 @@ main.table {
 
 .table__header {
 
-  width: 100%;
+  max-width: 100%;
   height: 10%;
   background-color: rgba(124, 39, 39, 0.27);
   padding: .5rem .5rem;
