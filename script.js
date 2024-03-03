@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Sample CSV data
-  const csvData = `Herb,Level,Guild Contribution,Guild Conquest
-  
+const csvData = `Herb,Level,Guild Contribution,Guild Conquest
 Senrik,13804,114733,85
 Bigmuff,13021,81504,58
 Lystrosaurus,13006,0,0
