@@ -26,7 +26,7 @@ Bryanth,14020,53060,58
 Halosito,13632,51405,55
 Kaza, 12983,65929,51
 Locats,15116,1500,0
-오피스,14032,61384,0’;
+오피스,14032,61384,0`;
 
 
   // Populate the table with CSV data
