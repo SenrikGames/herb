@@ -22,7 +22,8 @@ TonTon,14858,79156,61
 Waifuwu,15355,110834,65
 Haenul,13807,600,0
 Fugitive,16052,900,0
-Kyute,13876,600,0`;
+Kyute,13876,600,0
+Bolofski,14503,0,0`;
 
 
   // Populate the table with CSV data
