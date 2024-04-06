@@ -1,31 +1,28 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Sample CSV data
 const csvData = `Herb,Level,Contribution,Conquest
-Senrik,18156,147838,95
-NyxNyx,17104,34872,84
-luihsuan,16359,40739,80
-Anhjew,15713,78438,75
-MikMik,15231,83989,69
-Qqrage,15459,84075,66
-Resurrectionx3,15259,70316,65
-orbitGor,15306,74281,65
-Rosumi,15353,66395,64
-Lystrosaurus,15093,26652,64
-PiroTree,15095,78424,63
-Deeny,14989,102212,63
-z4rt,14920,80922,62
-Tankcat,14659,79812,62
-Waifuwu,14838,74279,62
-grasspack,14853,2200,62
-TonTon,14385,69556,60
-hijklmno,14488,65712,60
-Jackboy,14530,17808,59
-Bigmuff,13871,101778,58
-Bryanth,14020,53060,58
-Halosito,13632,51405,55
-Kaza, 12983,65929,51
-Locats,15116,1500,0
-오피스,14032,61384,0`;
+Senrik,19700,205048,100
+Anhjew,16405,124221,82
+Qqrage,16447,113703,78
+MikMik,15825,114205,77
+Jackboy,16154,45240,76
+Resurrectionx3,16179,113342,77
+Rosumi,16155,87899,75
+orbitGor,16044,114994,74
+grasspack,15589,28978,70
+PiroTree,15783,106354,72
+Locats,15615,26598,66
+Tankcat,15437,107850,70
+Lystrosaurus,15861,53070,74
+Deeny,15566,130070,71
+z4rt,15277,99234,69
+Bryanth,14674,78494,63
+Kaza,13554,80233,55
+TonTon,14858,79156,61
+Waifuwu,15355,110834,65
+Haenul,13807,600,0
+Fugitive,16052,900,0
+Kyute,13876,600,0`;
 
 
   // Populate the table with CSV data
