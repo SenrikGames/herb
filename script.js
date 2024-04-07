@@ -24,7 +24,8 @@ Haenul,13807,600,0
 Fugitive,16052,900,0
 Kyute,13876,600,0
 Bolofski,14503,0,0
-Kibou,15918,0,0`;
+Kibou,15918,0,0
+VintageKid,15557,0,0`;
 
 
   // Populate the table with CSV data
