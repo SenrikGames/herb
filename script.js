@@ -25,7 +25,8 @@ Fugitive,16252,3000,85
 Kyute,14166,1500,56
 Bolofski,14920,2400,58
 落澄月,17396,0,0
-Kibou,16020,1500,80`;
+Kibou,16020,1500,80
+머머머머머머머머,16430,0,0`;
   // Populate the table with CSV data
   function populateTable(csvData) {
     const tableBody = document.querySelector('tbody');
