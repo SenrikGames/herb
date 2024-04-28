@@ -25,7 +25,7 @@ Kibou,16829,42765,83
 머머머머머머머머,16792,1200,83
 jjjjut,16550,2400,79
 poniu,17730,2400,90
-SingersSword,145453,1800,78`;
+SingersSword,14453,1800,78`;
 
 
   // Populate the table with CSV data
