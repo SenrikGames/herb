@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Sample CSV data
 const csvData = `Herb,Level,Contribution,Conquest
-Senrik,224424,368848,100
+Senrik,22424,368848,100
 Gnopain,21240,1800,100
 落澄月,18322,81135,93
 poniu,18897,63174,97
